@@ -1,4 +1,5 @@
 <?php
+header("X-XSS-Protection: 1; mode=block");
 /* Copyright (C) 2007-2011	Laurent Destailleur	<eldy@users.sourceforge.net>
  * Copyright (C) 2008-2012	Regis Houssin		<regis.houssin@inodbox.com>
  * Copyright (C) 2008-2011	Juanjo Menent		<jmenent@2byte.es>
